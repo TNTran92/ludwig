@@ -9,7 +9,7 @@ import pandas as pd
 
 from ludwig.api import LudwigModel
 
-read_token = "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"
+read_token = ""
 os.environ["HUGGING_FACE_HUB_TOKEN"] = read_token
 assert os.environ["HUGGING_FACE_HUB_TOKEN"]
 
