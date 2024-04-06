@@ -2361,7 +2361,6 @@ def _get_compute_description(backend) -> Dict:
             {
                 "gpus_per_node": torch.cuda.device_count(),
                 "arch_list": torch.cuda.get_arch_list(),
-                "gencode_flags": torch.cuda.get_gencode_flags(),
                 "devices": {},
             }
         )

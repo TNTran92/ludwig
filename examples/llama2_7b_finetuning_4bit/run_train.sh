@@ -2,6 +2,7 @@
 
 # Fail fast if an error occurs
 set -e
+export HUGGING_FACE_HUB_TOKEN="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"
 
 # Get the directory of this script, which contains the config file
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
